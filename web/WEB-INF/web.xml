@@ -94,4 +94,13 @@
         <url-pattern>/NewAccountForm</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>CaptchaServlet</servlet-name>
+        <servlet-class>csu.web.mypetstore.web.servlet.CaptchaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CaptchaServlet</servlet-name>
+        <url-pattern>/Captcha</url-pattern>
+    </servlet-mapping>
+
 </web-app>

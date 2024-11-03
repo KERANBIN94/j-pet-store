@@ -3,14 +3,12 @@ package csu.web.mypetstore.web.servlet;
 import csu.web.mypetstore.domain.Cart;
 import csu.web.mypetstore.domain.Item;
 import csu.web.mypetstore.service.CatalogService;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.math.BigDecimal;
 
 public class AddItemToCartServlet extends HttpServlet {
     private static final String CART_FORM = "/WEB-INF/jsp/catalog/cart.jsp";

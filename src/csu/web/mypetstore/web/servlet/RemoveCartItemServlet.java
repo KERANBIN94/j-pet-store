@@ -2,7 +2,6 @@ package csu.web.mypetstore.web.servlet;
 
 import csu.web.mypetstore.domain.Cart;
 import csu.web.mypetstore.domain.Item;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

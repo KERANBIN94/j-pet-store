@@ -4,12 +4,10 @@
     <form action="SignOnForm" method="post">
         <p>Please enter your username and password.</p>
         <p>
-            Username: <label>
-            <input type="text" name="username" />
-        </label><br />
-            Password: <label>
-            <input type="password" name="password" />
-        </label>
+            Username: <input type="text" name="username" required><br>
+            Password: <input type="password" name="password" required><br>
+            Captcha: <input type="text" name="captcha" required><br>
+            <img src="captcha" alt="Captcha" /><br>
         </p>
         <input type="submit" name="SignOn" value="Login" />
     </form>
