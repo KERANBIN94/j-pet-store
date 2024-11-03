@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-j-9.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jsp-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
